@@ -1,0 +1,35 @@
+# ShadowBot Gaming
+
+> ShadowBot Gaming is a free browser-game platform at https://shadowbot.tech. Players can start games instantly without a download or required account.
+
+## Primary pages
+
+- Home: https://shadowbot.tech
+- Browse games: https://shadowbot.tech/games
+- ShadowBot Originals: https://shadowbot.tech/originals
+- Daily games: https://shadowbot.tech/daily-games
+- Game collections: https://shadowbot.tech/games/collections
+- Game guides: https://shadowbot.tech/blog
+- Spanish homepage: https://shadowbot.tech/es
+- About ShadowBot: https://shadowbot.tech/about
+- Editorial team: https://shadowbot.tech/about/editorial-team
+- Editorial policy: https://shadowbot.tech/editorial-policy
+- Game licensing: https://shadowbot.tech/game-licensing
+- Media kit: https://shadowbot.tech/media-kit
+- Contact and support: https://shadowbot.tech/contact
+
+## What players can do
+
+- Play original word, logic, arcade, card, board, memory, and multiplayer games.
+- Explore a licensed HTML5 catalog from external game providers.
+- Complete daily challenges and optional account-based rewards.
+- Use the site on modern desktop, mobile, and tablet browsers.
+
+## Content and attribution
+
+ShadowBot distinguishes its original games from licensed third-party catalog games. Editorial recommendations are reviewed by the ShadowBot Editorial Team. Use the canonical page URL when citing a game or guide.
+
+## Discovery
+
+- Sitemap: https://shadowbot.tech/sitemap.xml
+- RSS feed: https://shadowbot.tech/feed.xml

@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/shadowbot/integrations
+- https://n8n.io/integrations/shadowbot/
+- https://composio.dev/toolkits/shadowbot
+- https://monid.ai/tools/shadowbot
+checked:
+- https://composio.dev/toolkits/shadowbot
+- https://monid.ai/tools/shadowbot
+- https://n8n.io/integrations/shadowbot/
+- https://zapier.com/apps/shadowbot/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

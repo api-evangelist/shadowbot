@@ -1,0 +1,25 @@
+generated: '2026-10-22'
+method: probed
+source: https://shadowbot.tech/privacy
+signals:
+  data_retention:
+    evidence:
+      - source: https://shadowbot.tech/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "We retain your personal data for as long as your account is active or as needed to provide services."
+    note: Retains data while account active or needed for service.
+  data_subject_request:
+    evidence:
+      - source: https://shadowbot.tech/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "You may request deletion of your account and data at any time by contacting us."
+    note: Allows deletion request via contact.
+  subprocessors:
+    evidence:
+      - source: https://shadowbot.tech/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "We may share data with: Service providers who assist in operating our platform (e.g. hosting, analytics), bound by confidentiality agreements."
+    note: Shares data with service providers under confidentiality.

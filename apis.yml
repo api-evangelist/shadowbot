@@ -1,25 +1,90 @@
 aid: shadowbot
+
 name: ShadowBot
-description: 'ShadowBot is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by coatue) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://shadowbot.tech/opengraph-image?5d0623eb3eac3e38
+
+description: ShadowBot is a free browser gaming platform offering thousands of HTML5 games that can be played instantly without downloads or installations.
+  It provides a wide catalog ranging from arcade classics to puzzles, racing, and strategy games, supporting daily challenges, tournaments, and
+  community features like clans and leaderboards. The service aims to make gaming accessible to everyone across devices, with a focus on easy
+  access and a vibrant collection for casual and dedicated players alike.
+
 url: https://raw.githubusercontent.com/api-evangelist/shadowbot/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
-- Company
-apis: []
+- Gaming
+- HTML5
+- Free
+- Browser
+- Casual
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common:
+- type: ChangeLog
+  url: changelog/shadowbot-changelog.yml
+- type: LLMsTxt
+  url: llms/shadowbot-llms.txt
+- type: Hosts
+  url: hosts/shadowbot-hosts.yml
+- type: Login
+  url: https://shadowbot.tech/login
+- type: DeveloperPortal
+  url: https://shadowbot.tech/developers
+- type: DomainSecurity
+  url: security/shadowbot-domain-security.yml
+- type: Website
+  url: https://shadowbot.tech/
+- type: Blog
+  url: https://shadowbot.tech/blog
+- type: Documentation
+  url: https://shadowbot.tech/about
+- type: GettingStarted
+  url: https://shadowbot.tech/faq
+- type: Support
+  url: https://shadowbot.tech/contact
+- type: TermsOfService
+  url: https://shadowbot.tech/terms
+- type: PrivacyPolicy
+  url: https://shadowbot.tech/privacy
+
+apis:
+- name: ShadowBot API
+  description: ShadowBot provides a browser gaming platform with HTML5 games accessible via web. Documentation is at https://shadowbot.tech/about
+  humanURL: https://shadowbot.tech/about
+  aid: shadowbot:shadowbot-api
+
 x-backed-by:
 - coatue
-common:
-- type: Website
-  url: https://www.yingdao.com/
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via JavaScript, preventing machine-readable spec discovery.
+  evidence:
+  - url: https://shadowbot.tech/about
+    status: 200
+  checked: '2026-10-22'
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

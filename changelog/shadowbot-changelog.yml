@@ -1,0 +1,31 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://shadowbot.tech/updates
+sources:
+- https://shadowbot.tech/updates
+entries:
+- breaking: false
+  highlights:
+  - A clearer daily arcade experience
+  - Made Daily Games the main starting point for a short, repeatable play session.
+  - Improved first-party visit and engagement measurement so anonymous play is counted without requiring a Google Analytics identifier.
+  - Refreshed discovery links for original games, collections, challenges, and player guides.
+  date: '2026-10-11'
+- breaking: false
+  highlights:
+  - Better game discovery and curation
+  - Added personalized recommendations and clearer routes into ShadowBot Originals.
+  - Expanded practical game guidance, controls, and related-game links on key pages.
+  - Kept third-party catalog pages out of search indexing unless they meet ShadowBot's editorial-quality standard.
+  date: '2026-10-04'
+- breaking: false
+  highlights:
+  - Trust, support, and publishing standards
+  - Published the editorial policy, game-licensing information, and editorial-team page.
+  - Added live support, developer submissions, and clearer contact routes for corrections or broken-game reports.
+  - Separated original and curated pages from utility and account pages in the search sitemap.
+  date: '2026-08-16'
+current_version: '2026-10-11'
+note: The page lists updates by date without explicit version numbers; the versioning scheme is not specified.
+docs: https://shadowbot.tech/updates
